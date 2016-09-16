@@ -1,12 +1,12 @@
 # 名称：股市快讯
-- 一个提供股票查询、收藏和资讯浏览的APP
+- 一款提供股票查询、收藏和资讯浏览的APP
 
 # 截图
 ![image](https://github.com/conghuahuadan/Stock/blob/master/screenshots/sp160916_234248.png?raw=true)
 ![image](https://github.com/conghuahuadan/Stock/blob/master/screenshots/sp160916_234255.png?raw=true)
 
 # 说明
-- 参考嘉实基金，感谢黄某同学提供素材，软件仅供学习使用
+- 参考嘉实基金，感谢**黄某同学**提供素材，软件仅供学习使用
 
 # 关于
 - 作者：葱花滑蛋
