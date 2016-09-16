@@ -6,7 +6,7 @@
 ![image](https://github.com/conghuahuadan/Stock/blob/master/screenshots/sp160916_234255.png?raw=true)
 
 # 说明
-- 参考嘉实基金，感谢**黄某同学**提供素材，软件仅供学习使用
+- 软件参考嘉实基金，感谢**黄某同学**提供素材，仅供学习使用
 
 # 关于
 - 作者：葱花滑蛋
