@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDCDC"
+    android:orientation="vertical"
+    tools:context="com.chhd.stock.activity.RegisterActivity">
+
+    <com.chhd.stock.view.TitleBarView xmlns:app="http://schemas.android.com/apk/res/com.chhd.stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_title="注册">
+
+    </com.chhd.stock.view.TitleBarView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.chhd.stock.view.InputView xmlns:app="http://schemas.android.com/apk/res/com.chhd.stock"
+            android:id="@+id/iv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:drawableLeft="@mipmap/ic_username"
+            app:hint="账号：6—20位字母/数字"
+            app:inputType="text">
+
+        </com.chhd.stock.view.InputView>
+
+        <com.chhd.stock.view.InputView xmlns:app="http://schemas.android.com/apk/res/com.chhd.stock"
+            android:id="@+id/iv_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:drawableLeft="@mipmap/ic_password"
+            app:hint="密码：6—20位字母/数字"
+            app:inputType="textPassword">
+
+        </com.chhd.stock.view.InputView>
+
+        <com.chhd.stock.view.InputView xmlns:app="http://schemas.android.com/apk/res/com.chhd.stock"
+            android:id="@+id/iv_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:drawableLeft="@mipmap/ic_password"
+            app:hint="确认密码"
+            app:inputType="textPassword">
+
+        </com.chhd.stock.view.InputView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_me_button"
+                android:text="确认"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_me_button"
+                android:text="返回"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/pb_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@anim/rotate_progressbar"
+            android:indeterminateOnly="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDCDC"
+    tools:context=".activity.MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/rg_main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/bg_bottom"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_stock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_rb_stock"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="股票"
+            android:textColor="@drawable/selector_bottom_text"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_rb_news"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="资讯"
+            android:textColor="@drawable/selector_bottom_text"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_rb_me"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="我"
+            android:textColor="@drawable/selector_bottom_text"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_help"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_rb_help"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="帮助"
+            android:textColor="@drawable/selector_bottom_text"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+    <com.chhd.stock.view.MainViewPager
+        android:id="@+id/vp_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_main_bottom">
+
+    </com.chhd.stock.view.MainViewPager>
+
+    <ImageView
+        android:id="@+id/iv_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rg_main_bottom"
+        android:layout_marginBottom="-8dp"
+        android:background="@mipmap/tab" />
+
+</RelativeLayout>

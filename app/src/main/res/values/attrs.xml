@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleBarView">
+        <attr name="title_bar_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="InputView">
+        <attr name="drawableLeft" format="reference" />
+        <attr name="hint" format="string" />
+        <attr name="inputType" format="string" />
+    </declare-styleable>
+
+</resources>

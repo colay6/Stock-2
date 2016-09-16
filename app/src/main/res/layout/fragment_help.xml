@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDCDC"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_stock_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@mipmap/bg_title_bar">
+
+        <TextView
+            android:id="@+id/tv_stock_title_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="帮助"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_feedback"
+            style="@style/SettingButton"
+            android:background="@drawable/selector_setting_top_button"
+            android:text="意见反馈" />
+
+
+        <Button
+            android:id="@+id/btn_about"
+            style="@style/SettingButton"
+            android:background="@drawable/selector_setting_bottom_button"
+            android:text="关于软件" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDCDC"
+    android:orientation="vertical">
+
+    <com.chhd.stock.view.TitleBarView xmlns:app="http://schemas.android.com/apk/res/com.chhd.stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_title="资讯">
+
+    </com.chhd.stock.view.TitleBarView>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptrlv_newss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</LinearLayout>
