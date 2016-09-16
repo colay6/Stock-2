@@ -8,6 +8,10 @@
 # 说明
 - 软件参考嘉实基金，感谢**黄某同学**提供素材，仅供学习使用
 
+# 下载
+- apk下载地址：[http://pan.baidu.com/s/1bArSRW](http://pan.baidu.com/s/1bArSRW)
+- 提取密码：5gy8
+
 # 关于
 - 作者：葱花滑蛋
 - 邮箱：conghuahuadan@163.com
