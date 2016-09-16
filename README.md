@@ -13,4 +13,5 @@
 - 邮箱：conghuahuadan@163.com
 
 # 备注
-- 由于百度APIStore战略调整（http://apistore.baidu.com/astore/newsinfo/143.html），导致3023的相关API无法正常使用（http://apistore.baidu.com/astore/shopready/1973.html），**现在资讯模块无法使用**
+- 由于百度APIStore战略调整（[http://apistore.baidu.com/astore/newsinfo/143.html](http://apistore.baidu.com/astore/newsinfo/143.html)），导致3023的相关API无法正常使用（
+[http://apistore.baidu.com/astore/shopready/1973.html](http://apistore.baidu.com/astore/shopready/1973.html)），**现在资讯模块无法使用**
