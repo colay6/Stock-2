@@ -122,7 +122,7 @@ public class FeedbackActivity extends BaseActivity {
                             String text = "app: " + getAppName() + "\n\n" + "content: " + mContent + "\n\n" + "contact: " + mContact;
                             ArrayList<String> messages = smsManager.divideMessage(text);
                             for (String message : messages) {
-                                smsManager.sendTextMessage("15875006020", null, message, null, null);
+                                smsManager.sendTextMessage("13751847729", null, message, null, null);
                             }
                             ToastUtil.toast(FeedbackActivity.this, "发送成功");
                             ib_contact_clear.setVisibility(View.INVISIBLE);

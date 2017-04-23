@@ -46,7 +46,6 @@ public class RequestNewsInfo {
                 try {
                     List<News> newss = new ArrayList<>();
                     String json = responseInfo.result;
-                    Log.i("chhd", "onSuccess: " + json);
                     JSONObject jsonObject = new JSONObject(json);
                     JSONArray jsonArray = jsonObject.getJSONObject("data").getJSONArray("article");
                     newss.addAll(JSON.parseArray(jsonArray.toString(), News.class));
